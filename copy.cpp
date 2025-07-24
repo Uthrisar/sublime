@@ -1,13 +1,4 @@
-#include<iostream>
-#include<queue>
-#include<stack>
-#include<map>
-#include<set>
-#include<vector>
-#include<string>
-#include<cmath>
-#include<cstring>
-#include<algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int maxN = 2e5+5;
@@ -20,7 +11,7 @@ const int INF = 1e9+5;
 #define msi multiset<int>
 #define mspi multiset<pi>
 #define mi map<int,int>
-#define ll long long 
+#define ll long long
 #define sort(v) sort(v.begin(),v.end())
 #define maxheap priority_queue<int>
 #define minheap priority_queue<int,vector<int>,greater<int>>
